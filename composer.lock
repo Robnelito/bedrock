@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "75b0a138ba1ed264c8b8a881480ab21c",
+    "content-hash": "89978a27e1eeb1804443b0bfe3510a3c",
     "packages": [
         {
             "name": "composer/installers",
@@ -1263,6 +1263,24 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/wpcf7-recaptcha/"
+        },
+        {
+            "name": "wpackagist-theme/understrap",
+            "version": "0.9.4",
+            "source": {
+                "type": "svn",
+                "url": "https://themes.svn.wordpress.org/understrap/",
+                "reference": "0.9.4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/theme/understrap.0.9.4.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-theme",
+            "homepage": "https://wordpress.org/themes/understrap/"
         }
     ],
     "packages-dev": [
