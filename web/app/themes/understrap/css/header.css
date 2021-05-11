@@ -1,0 +1,21 @@
+img.img-fluid {
+    width: 122px;
+    
+}
+
+.bg-primary {
+    background-color: rgb(255, 255, 255) !important;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    /* color: rgba(255,255,255,.5); */
+    color: #343434;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    /* color: rgba(255,255,255,.5); */
+    color: #343434;
+
+}
+
+i .fa-user, .fa-search

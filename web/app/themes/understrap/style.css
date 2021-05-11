@@ -149,26 +149,3 @@ a .icone:hover {
     background-color: #D17A5E;
     color: #EEE8E4;
 }
-
-span.posted-on {
-    display: none;
-}
-
-span.byline {
-    display: none;
-}
-
-span.edit-link {
-    display: none;
-}
-
-div#comments {
-    display: none;
-}
-
-
-
-/* .icone i{
-		background-color: blue;
-		margin: 20px;
-	} */
