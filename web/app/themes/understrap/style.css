@@ -34,3 +34,141 @@ The dependencies can be found in /src/ after running "gulp copy-assets" terminal
 
 ...and now go out and play!
 */
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Mulish&display=swap');
+
+.social-media-section {
+    background-color: #343434;
+    padding: 70px 70px;
+}
+
+.h6t {
+    font-family: 'Mulish', sans-serif;
+    color: #D17A5E;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.h2t {
+    font-family: 'DM Serif Display', serif;
+    color: #EEE8E4;
+    font-size: 35px;
+}
+
+span {
+    color: white;
+    align-items: center;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+
+a .icone {
+    height: 70px;
+    width: 70px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    color: white;
+    border-radius: 50px;
+    font-size: 28px;
+}
+
+input#VALIDER {
+    color: #D17A5E;
+    border: 1px solid #D17A5E;
+}
+
+input#VALIDER:hover {
+    color: white;
+    border: 1px solid #D17A5E;
+    background-color: #D17A5E;
+}
+
+.wpcf7 {
+    max-width: 1000px;
+    margin: 0 auto !important;
+}
+
+@media screen and (max-width: 990px) {
+    a .icone {
+        height: 55px;
+        width: 55px;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid white;
+        color: white;
+        border-radius: 50px;
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width : 769px) {
+    .social-icone {
+        text-align: center;
+        padding-left: 75px;
+    }
+    h5.h6t {
+        text-align: center;
+    }
+
+    h2.h2t {
+        text-align: center;
+    }
+}
+
+a .icone:hover {
+    color: #343434;
+    background-color: white;
+}
+
+.newsletter {
+    background-color: #EEE8E4;
+}
+
+.newsletterBtn {
+    color: #D17A5E;
+    background-color: #EEE8E4;
+    border: 1px solid #D17A5E;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.newsletterBtn:hover {
+    background-color: #D17A5E;
+    color: #EEE8E4;
+}
+
+span.posted-on {
+    display: none;
+}
+
+span.byline {
+    display: none;
+}
+
+span.edit-link {
+    display: none;
+}
+
+div#comments {
+    display: none;
+}
+
+
+
+/* .icone i{
+		background-color: blue;
+		margin: 20px;
+	} */
