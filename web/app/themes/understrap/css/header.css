@@ -10,12 +10,32 @@ img.img-fluid {
 .navbar-dark .navbar-nav .nav-link {
     /* color: rgba(255,255,255,.5); */
     color: #343434;
+    font-weight: 600;
+    position: relative;
 }
 
 .navbar-dark .navbar-nav .nav-link:hover {
     /* color: rgba(255,255,255,.5); */
     color: #343434;
-
 }
 
-i .fa-user, .fa-search
+.col-md-2.header-icone {
+    text-align: right;
+    font-size: 30px;
+}
+
+.col-md-2.header-icone a {
+   color: #343434;
+}
+
+@media screen and (max-width : 769px) {
+
+    .col-md-2 {
+        width: 150px;
+    }
+    .col-md-2.header-icone {
+        text-align: center;
+        font-size: 30px;
+    }
+    
+}

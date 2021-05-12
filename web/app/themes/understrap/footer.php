@@ -17,7 +17,7 @@ $container = get_theme_mod('understrap_container_type');
 <?php get_template_part('sidebar-templates/sidebar', 'footerfull'); ?>
 
 <style>
-	
+
 </style>
 
 <div class="wrapper social-media-section" id="wrapper-footer">
@@ -97,7 +97,6 @@ $container = get_theme_mod('understrap_container_type');
 
 
 
-
 <section class="instagram-area">
 	<div class="container-fluid auto-container">
 		<div class="row">
@@ -109,16 +108,38 @@ $container = get_theme_mod('understrap_container_type');
 	<div class="container-fluid auto-container">
 		<div class="row">
 			<div class="col-lg-12">
-				<div class="owl-carousel owltheme owl-loaded owl-drag">
-					<div class="owl-stage-outer">
-						<div class="owl-stage" style="transform: translate3d(-1);"></div>
-					</div>
-				</div>
+				<?php echo wdi_feed(array('id' => '1')); ?>
 			</div>
-		</div>
+			<div>
+				<?php wp_nav_menu(
+					array(
+						'theme_location'  => 'primary',
+						'container_class' => 'collapse navbar-collapse',
+						'container_id'    => 'navbarNavDropdown',
+						'menu_class'      => 'navbar-nav ml-auto',
+						'fallback_cb'     => '',
+						'menu_id'         => 'main-menu',
+						'depth'           => 2,
+						'walker'          => new Understrap_WP_Bootstrap_Navwalker(),
+					)
+				); ?>
+				<?php if ('container' == $container) : ?>
+			</div>
+			</div>
+		</div><!-- .container -->
+	<?php endif; ?>
+	</div>
+	</div>
 	</div>
 </section>
 
+<div class="finally-the-footer container-fluid">
+	<section class="an-other-social-network-area container">
+		<a href="#" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook-f"></i></a>
+		<a href="#" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>
+		<a href="#" target="_blank" rel="noopener noreferrer"><i class="fab fa-pinterest"></i></a>
+	</section>
+</div>
 
 </div><!-- #page we need this extra closing tag here -->
 

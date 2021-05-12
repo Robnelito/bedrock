@@ -149,3 +149,21 @@ a .icone:hover {
     background-color: #D17A5E;
     color: #EEE8E4;
 }
+
+section.an-other-social-network-area.container {
+    text-align: center;
+    border-top: 1px solid #D17A5E;
+    padding-top: 20px;
+    font-size: 25px;
+
+}
+section.an-other-social-network-area.container a{
+    color: #D17A5E;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+div.finally-the-footer{
+    background-color: #EEE8E4;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}

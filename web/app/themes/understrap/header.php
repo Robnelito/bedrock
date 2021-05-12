@@ -78,12 +78,12 @@ $container = get_theme_mod('understrap_container_type');
 						); ?>
 						<?php if ('container' == $container) : ?>
 					</div>
-					<div class="col-md-2">
+					<div class="col-md-2 header-icone">
 						<a href="#" rel="noopener noreferrer"><i class="fas fa-search"></i></a>
 						<a href="#" rel="noopener noreferrer"><i class="far fa-user"></i></a>
 					</div>
 					</div><!-- .container -->
-				<?php endif; ?>
+					<?php endif; ?>
 
 			</nav><!-- .site-navigation -->
 
