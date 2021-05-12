@@ -110,13 +110,7 @@ $container = get_theme_mod('understrap_container_type');
 			<div class="col-lg-12 owl-carousel owl-theme owl-loaded">
 				<div class="owl-stage-outer">
 					<div class="owl-stage">
-						<?php $instagram = wdi_feed(array('id' => '1'));
-						$i =0;
-						foreach ($instagram as $image) {
-							echo ("<div class='owl-item'>" . $image[$i] ."</div>");
-							
-						}
-						?>
+						<?php echo wdi_feed(array('id' => '1'));?>
 					</div>
 				</div>
 			</div>
