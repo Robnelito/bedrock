@@ -132,7 +132,7 @@ input#VALIDER:hover {
     .social-icone {
         text-align: center;
         padding-left: 35px;
-        
+
     }
 
     span.ico.col-4.text-center {
@@ -231,3 +231,7 @@ div#wrapper-footer-full {
     position: relative;
     top: 0;
 }
+
+/* .wdi_feed_wrapper.wdi_col_3 {
+    display: flex;
+} */
