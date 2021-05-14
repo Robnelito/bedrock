@@ -44,14 +44,14 @@ The dependencies can be found in /src/ after running "gulp copy-assets" terminal
 .h6t {
     font-family: 'Mulish', sans-serif;
     color: #D17A5E;
-    font-size: 15px;
+    font-size: 16px;
     font-weight: bold;
 }
 
 .h2t {
     font-family: 'DM Serif Display', serif;
     color: #EEE8E4;
-    font-size: 35px;
+    font-size: 48px;
 }
 
 span.ico {
@@ -132,6 +132,7 @@ input#VALIDER:hover {
     .social-icone {
         text-align: center;
         padding-left: 35px;
+        
     }
 
     span.ico.col-4.text-center {
@@ -160,8 +161,13 @@ a .icone:hover {
     color: #D17A5E;
     background-color: #EEE8E4;
     border: 1px solid #D17A5E;
-    padding: 20px;
-    border-radius: 10px;
+    padding: 0 20px;
+    border-radius: 4px;
+    transition: all 0.7s;
+    font-size: 16px;
+    height: 48px;
+    line-height: 46px;
+    font-weight: 700;
 }
 
 .newsletterBtn:hover {
@@ -197,3 +203,31 @@ nav.navbar.navbar-expand-md.navbar-dark.bg-primary {
     background-color: white !IMPORTANT;
 }
 
+
+ul.menu-footer-menu li{
+    text-decoration: none;
+    list-style: none;
+    /* padding-right: 50px; */
+}
+
+li.menu-item.menu-item-type-post_type.menu-item-object-page {
+    list-style: none;
+    display: contents;
+}
+
+li.menu-item.menu-item-type-post_type.menu-item-object-page a{
+    text-decoration: none;
+    color: #D17A5E;
+    padding-right: 35px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+div#wrapper-footer-full {
+    background-color: transparent;
+}
+
+.col-lg-12.owl-carousel.owl-theme.owl-loaded {
+    position: relative;
+    top: 0;
+}

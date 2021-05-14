@@ -14,7 +14,6 @@ defined('ABSPATH') || exit;
 $container = get_theme_mod('understrap_container_type');
 ?>
 
-<?php get_template_part('sidebar-templates/sidebar', 'footerfull'); ?>
 
 <style>
 
@@ -114,30 +113,16 @@ $container = get_theme_mod('understrap_container_type');
 					</div>
 				</div>
 			</div>
-			<div>
-				<?php wp_nav_menu(
-					array(
-						'theme_location'  => 'primary',
-						'container_class' => 'collapse navbar-collapse',
-						'container_id'    => 'navbarNavDropdown',
-						'menu_class'      => 'navbar-nav ml-auto',
-						'fallback_cb'     => '',
-						'menu_id'         => 'main-menu',
-						'depth'           => 2,
-						'walker'          => new Understrap_WP_Bootstrap_Navwalker(),
-					)
-				); ?>
-				<?php if ('container' == $container) : ?>
-			</div>
+			
 		</div>
-	</div><!-- .container -->
-<?php endif; ?>
-</div>
-</div>
-</div>
+	</div>
 </section>
 
 <div class="finally-the-footer container-fluid">
+			<div>
+				<?php get_template_part('sidebar-templates/sidebar', 'footerfull'); ?>
+				
+			</div>
 	<section class="an-other-social-network-area container">
 		<a href="#" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook-f"></i></a>
 		<a href="#" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>

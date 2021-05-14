@@ -85,7 +85,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 	<!-- </div> -->
 	<!-- #wrapper-navbar end -->
-	<nav>
+	<nav class="header-nav">
 		<div class="header"></div>
 		<input type="checkbox" class="openSidebarMenu" id="openSidebarMenu">
 		<label for="openSidebarMenu" class="sidebarIconToggle">
