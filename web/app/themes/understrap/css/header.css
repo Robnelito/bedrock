@@ -82,12 +82,6 @@ div#index-wrapper {
 :is(input[type="checkbox"], .sidebarMenuInner, .social-media){
     display: none;
 }
-@media screen and (max-width: 1024px) and (min-width: 1440px){
-    .header-widget{
-        margin: -1%;
-        margin-right: 15px;
-    }
-}
 @media screen and (min-width: 1024px){
     .header-widget{
         margin: -2%;
