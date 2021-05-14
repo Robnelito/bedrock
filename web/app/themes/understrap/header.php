@@ -19,7 +19,6 @@ $container = get_theme_mod( 'understrap_container_type' );
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<link rel="profile" href="http://gmpg.org/xfn/11">
 	<?php wp_head(); ?>
-	<!-- <link rel="stylesheet" href="app/themes/understrap/assets/css/style.css"> -->
 	<link rel="stylesheet" 
 	href="app/themes/understrap/assets/css/all.min.css">
 </head>
@@ -94,7 +93,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 			<div class="spinner diagonal part-2"></div>
 		</label>
 		<div class="header-logo">
-			<img src="app/themes/understrap/assets/img/png/logo-domus-dark.png" alt="Domus, vivez de l'intérieur">
+			<img src="app/themes/understrap/img/png/logo-domus-dark.png" alt="Domus, vivez de l'intérieur">
 		</div>
 		<div class="header-link">
 			<ul>
@@ -122,10 +121,10 @@ $container = get_theme_mod( 'understrap_container_type' );
 		<div class="header-widget">
 			<ul>
 				<li><a href="#">
-					<img src="app/themes/understrap/assets/img/svg/search.svg" alt="">
+					<img src="app/themes/understrap/img/svg/search.svg" alt="">
 				</a></li>
 				<li><a href="#">
-					<img src="app/themes/understrap/assets/img/svg/user.svg" alt="">
+					<img src="app/themes/understrap/img/svg/user.svg" alt="">
 				</a></li>
 			</ul>
 		</div>

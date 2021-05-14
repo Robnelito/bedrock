@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "89978a27e1eeb1804443b0bfe3510a3c",
+    "content-hash": "726b00702d88302080bc2ab85907a1a3",
     "packages": [
         {
             "name": "composer/installers",
@@ -1193,6 +1193,24 @@
             "homepage": "https://wordpress.org/plugins/user-switching/"
         },
         {
+            "name": "wpackagist-plugin/wd-instagram-feed",
+            "version": "1.4.19",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/wd-instagram-feed/",
+                "reference": "tags/1.4.19"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/wd-instagram-feed.1.4.19.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/wd-instagram-feed/"
+        },
+        {
             "name": "wpackagist-plugin/what-the-file",
             "version": "1.5.4",
             "source": {
@@ -1263,24 +1281,6 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/wpcf7-recaptcha/"
-        },
-        {
-            "name": "wpackagist-theme/understrap",
-            "version": "0.9.4",
-            "source": {
-                "type": "svn",
-                "url": "https://themes.svn.wordpress.org/understrap/",
-                "reference": "0.9.4"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/theme/understrap.0.9.4.zip"
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-theme",
-            "homepage": "https://wordpress.org/themes/understrap/"
         }
     ],
     "packages-dev": [
