@@ -18,8 +18,10 @@ if ( ! function_exists( 'understrap_scripts' ) ) {
 		$theme_version = $the_theme->get( 'Version' );
 
 		$css_version = $theme_version . '.' . filemtime( get_template_directory() . '/css/theme.min.css' );
+		wp_enqueue_style('style-header', get_template_directory_uri() . '/assets/css/style.css', array(), $css_version);
 		wp_enqueue_style( 'understrap-styles', get_template_directory_uri() . '/css/theme.min.css', array(), $css_version );
 		wp_enqueue_style('style-footer', get_template_directory_uri() . '/css/footer.css', array(), $css_version);
+
 
 		wp_enqueue_script( 'jquery' );
 
