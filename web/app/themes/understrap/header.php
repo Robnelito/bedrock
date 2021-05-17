@@ -19,7 +19,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<link rel="profile" href="http://gmpg.org/xfn/11">
 	<?php wp_head(); ?>
-	<link rel="stylesheet" 
+	<link rel="stylesheet"
 	href="app/themes/understrap/assets/css/all.min.css">
 </head>
 
@@ -28,7 +28,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 <div class="site" id="page">
 
 	<!-- ******************* The Navbar Area ******************* -->
-	<!-- <div id="wrapper-navbar" itemscope itemtype="http://schema.org/WebSite">
+	<div id="wrapper-navbar" itemscope itemtype="http://schema.org/WebSite">
 
 		<a class="skip-link sr-only sr-only-focusable" href="#content"><?php esc_html_e( 'Skip to content', 'understrap' ); ?></a>
 
@@ -36,10 +36,10 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 		<?php if ( 'container' == $container ) : ?>
 			<div class="container">
-		<?php endif; ?> -->
+		<?php endif; ?>
 
 					<!-- Your site title as branding in the menu -->
-					<!-- <?php if ( ! has_custom_logo() ) { ?>
+					<?php if ( ! has_custom_logo() ) { ?>
 
 						<?php if ( is_front_page() && is_home() ) : ?>
 
@@ -54,15 +54,15 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 					<?php } else {
 						the_custom_logo();
-					} ?> -->
+					} ?>
 					<!-- end custom logo -->
 
-				<!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="<?php esc_attr_e( 'Toggle navigation', 'understrap' ); ?>">
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="<?php esc_attr_e( 'Toggle navigation', 'understrap' ); ?>">
 					<span class="navbar-toggler-icon"></span>
-				</button> -->
+				</button>
 
 				<!-- The WordPress Menu goes here -->
-				<!-- <?php wp_nav_menu(
+				<?php wp_nav_menu(
 					array(
 						'theme_location'  => 'primary',
 						'container_class' => 'collapse navbar-collapse',
@@ -75,16 +75,16 @@ $container = get_theme_mod( 'understrap_container_type' );
 					)
 				); ?>
 			<?php if ( 'container' == $container ) : ?>
-			</div> -->
+			</div>
 			<!-- .container -->
-			<!-- <?php endif; ?> -->
+			<?php endif; ?>
 
-		<!-- </nav> -->
+		</nav>
 		<!-- .site-navigation -->
 
-	<!-- </div> -->
+	</div>
 	<!-- #wrapper-navbar end -->
-	<nav class="header-nav">
+	<!-- <nav class="header-nav">
 		<div class="header"></div>
 		<input type="checkbox" class="openSidebarMenu" id="openSidebarMenu">
 		<label for="openSidebarMenu" class="sidebarIconToggle">
@@ -128,4 +128,4 @@ $container = get_theme_mod( 'understrap_container_type' );
 				</a></li>
 			</ul>
 		</div>
-	</nav>
+	</nav> -->
