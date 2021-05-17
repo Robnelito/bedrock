@@ -95,6 +95,10 @@ input#VALIDER:hover {
     margin: 0 auto !important;
 }
 
+div#navigation .wrapper{
+  background-color: transparent !important;
+}
+
 @media screen and (max-width: 990px) {
     a .icone {
         height: 55px;
@@ -146,6 +150,16 @@ input#VALIDER:hover {
     h2.h2t {
         text-align: center;
     }
+}
+
+@media screen and (max-width : 395px) {
+  div.menu-footer-menu-container li.menu-item.menu-item-type-post_type.menu-item-object-page a {
+    text-decoration: none;
+    color: #D17A5E;
+    padding-right: 35px;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
 }
 
 a .icone:hover {
@@ -223,6 +237,103 @@ div.menu-footer-menu-container li.menu-item.menu-item-type-post_type.menu-item-o
     font-weight: 700;
 }
 
+<<<<<<< HEAD
+=======
+@media screen and (max-width : 1024px) {
+  div.menu-footer-menu-container li.menu-item.menu-item-type-post_type.menu-item-object-page a {
+    font-size: 13px;
+  }
+}
+
+/* @media screen and (max-width : 395px)*/
+@media screen and (max-width : 768px) {
+  div.menu-footer-menu-container li.menu-item.menu-item-type-post_type.menu-item-object-page a {
+    font-size: 10px;
+    padding-right: 20px;
+  }
+
+  div.social-media-section {
+    padding: 0;
+    padding-top: 10px;
+  }
+
+  .h6t {
+    font-family: 'Mulish', sans-serif;
+    color: #D17A5E;
+    font-size: 10px;
+    font-weight: bold;
+  }
+
+  .h2t {
+    font-family: 'DM Serif Display', serif;
+    color: #EEE8E4;
+    font-size: 38px;
+  }
+}
+
+@media screen and (max-width : 425px){
+  div#wrapper-footer-social {
+    padding-bottom: 30px;
+  }
+  span.ico{
+    padding-left: 10px;
+  }
+  i.icone.fab.fa-facebook-f {
+    margin-left: 20px;
+  }
+  i.icone.fab.fa-instagram {
+    margin-left: 20px;
+  }
+  i.icone.fab.fa-pinterest {
+    margin-left: 20px;
+  }
+  a .icone {
+    height: 55px;
+    width: 55px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    color: white;
+    border-radius: 50px;
+    font-size: 24px;
+  }
+
+  ul#menu-footer-menu {
+    text-align: left;
+    display: grid;
+    /* width: 45%; */
+  }
+
+
+  div#navigation{
+    width: 45%;
+  }
+
+  .finally-the-footer.container-fluid {
+    display: flex;
+  }
+
+  section.an-other-social-network-area.container {
+    display: grid;
+    font-size: 15px;
+    border-top: none;
+    text-align: right;
+  }
+
+  section.an-other-social-network-area.container a{
+    top: 0;
+  }
+
+}
+
+
+>>>>>>> ce8cbb2f3aa86268b79f5e75a0b1ecbf1608c0f2
 div#wrapper-footer-full {
     background-color: transparent;
 }
