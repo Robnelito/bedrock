@@ -97,18 +97,18 @@ $container = get_theme_mod( 'understrap_container_type' );
 		</div>
 		<div class="header-link">
 			<ul>
-				<li><a href="#">Découvrir Domus</a></li>
-				<li><a href="#">Nos services</a></li>
-				<li><a href="#">Nos enseignes</a></li>
-				<li><a href="#">Nos événements</a></li>
-				<li><a href="#">Nous contacter</a></li>
+				<li><a href="http://localhost/bedrock/web/decouvrir-domus">Découvrir Domus</a></li>
+				<li><a href="http://localhost/bedrock/web/nos-services">Nos services</a></li>
+				<li><a href="http://localhost/bedrock/web/nos-enseignes">Nos enseignes</a></li>
+				<li><a href="http://localhost/bedrock/web/nos-evenements">Nos événements</a></li>
+				<li><a href="http://localhost/bedrock/web/nous-contacter/">Nous contacter</a></li>
 			</ul>
 		</div>
 		<div id="sidebarMenu">
 			<ul class="sidebarMenuInner">
 				<li><a href="http://localhost/bedrock/web/decouvrir-domus/">Découvrir Domus</a></li>
 				<li><a href="http://localhost/bedrock/web/nos-services/">Nos services</a></li>
-				<li><a href="http://localhost/bedrock/web/nos enseignes/">Nos enseignes</a></li>
+				<li><a href="http://localhost/bedrock/web/nos-enseignes/">Nos enseignes</a></li>
 				<li><a href="http://localhost/bedrock/web/nos-evenements/">Nos événements</a></li>
 				<li><a href="http://localhost/bedrock/web/nous-contacter/">Nous contacter</a></li>
 			</ul>

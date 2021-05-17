@@ -207,7 +207,6 @@ div#index-wrapper {
     .sidebarMenuInner li{
         list-style: none;
         color: #fff;
-        /* text-transform: uppercase; */
         font-weight: bold;
         padding: 20px;
         cursor: pointer;
@@ -220,7 +219,6 @@ div#index-wrapper {
     }
     .sidebarMenuInner li a{
         color: #fff;
-        /* text-transform: uppercase; */
         font-weight: bold;
         cursor: pointer;
         text-decoration: none;
@@ -318,7 +316,6 @@ div#index-wrapper {
     .header-widget{
         margin-right: 15px;
     }
-=======
   .main {
     margin: 0 auto;
     display: block;
