@@ -21,7 +21,7 @@ if ( ! function_exists( 'understrap_scripts' ) ) {
 		wp_enqueue_style('style-header', get_template_directory_uri() . '/css/header.css', array(), $css_version);
 		wp_enqueue_style( 'understrap-styles', get_template_directory_uri() . '/css/theme.min.css', array(), $css_version );
 		wp_enqueue_style('style-footer', get_template_directory_uri() . '/css/footer.css', array(), $css_version);
-
+		wp_enqueue_style('style-form', get_template_directory_uri() . '/css/form.css', array(), $css_version);
 
 		wp_enqueue_script( 'jquery' );
 
@@ -30,7 +30,7 @@ if ( ! function_exists( 'understrap_scripts' ) ) {
 
 		wp_enqueue_script('ow', get_template_directory_uri() . '/js/theme.min.js', array(), $js_version, true);
 		wp_enqueue_script('ow', get_template_directory_uri() . '/Asset/asset/dist/owl.carousel.min.js', array(), $js_version, true);
-		
+
 
 		if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 			wp_enqueue_script( 'comment-reply' );

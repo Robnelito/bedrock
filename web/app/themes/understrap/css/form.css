@@ -1,0 +1,63 @@
+/*
+*This file comport all style for our contact form in "nous contacter" pages.
+*/
+
+
+div#content {
+  padding-top: 80px;
+}
+
+h1.entry-title {
+    display: none;
+}
+
+.wp-block-buttons.is-content-justification-left {
+    padding-left: 0px;
+    font-size: 16px;
+    padding-top: 40px;
+}
+
+h2#nous-contacter {
+    color: black;
+    padding-left: 250px;
+    padding-top: 30px;
+}
+
+span.dot {
+    color: #D17A5E;
+}
+
+p#return-text {
+    padding-top: 40px;
+    padding-left: 20px;
+    color: grey;
+}
+
+a#retour-link {
+    color: black;
+    padding-right: 20px;
+}
+
+.wp-block-contact-form-7-contact-form-selector {
+  padding-top: 80px;
+  background-color: #EEE8E4;
+}
+
+.wp-block-contact-form-7-contact-form-selector {
+  background-color: #EEE8E4;
+}
+
+a.wp-block-button__link {
+    background-color: white !important;
+}
+
+input.wpcf7-form-control.wpcf7-submit {
+    color: #D17A5E;
+    border: 1px solid #D17A5E;
+}
+
+input.wpcf7-form-control.wpcf7-submit:hover {
+    color: white;
+    background-color: #D17A5E;
+    border: 1px solid #D17A5E;
+}
