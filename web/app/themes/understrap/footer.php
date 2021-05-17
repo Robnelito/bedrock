@@ -31,9 +31,9 @@ $container = get_theme_mod('understrap_container_type');
 
 					<div class="social-test col-md-8">
 
-						<h5 class="h6t">RESTIONS EN CONTACT !</h5>
+						<h5 class="h6t">RESTONS EN CONTACT !</h5>
 
-						<h2 class="h2t">Suivez nous sur les reseaux !</h2>
+						<h2 class="h2t">Suivez-nous sur les réseaux!</h2>
 
 					</div><!-- .some social text -->
 
@@ -77,7 +77,7 @@ $container = get_theme_mod('understrap_container_type');
 
 					<div class="text-center">
 						<h6 class="h6t">NE LOUPEZ RIEN DE NOS ACTUALITES</h6>
-						<h2 class="h2t" style="color: #343434;">Inscrivez-vous a notre newsletter</h2>
+						<h2 class="h2t" style="color: #343434;">Inscrivez-vous à notre newsletter</h2>
 						<br>
 						<button type="button" class="newsletterBtn">M'INSCRIRE A LA NEWSLETTER</button>
 					</div>
@@ -100,7 +100,7 @@ $container = get_theme_mod('understrap_container_type');
 	<div class="container-fluid auto-container">
 		<div class="row">
 			<div class="section-title text-center col-lg-12">
-				<h2 class="h2t" style="color: #343434;">Suivez nous sur instagram !</h2>
+				<h2 class="h2t" style="color: #343434;">Suivez-nous sur instagram!</h2>
 			</div>
 		</div>
 	</div>
@@ -109,20 +109,20 @@ $container = get_theme_mod('understrap_container_type');
 			<div class="col-lg-12 owl-carousel owl-theme owl-loaded">
 				<div class="owl-stage-outer">
 					<div class="owl-stage">
-						<?php echo wdi_feed(array('id' => '1'));?>
+						<?php echo wdi_feed(array('id' => '1')); ?>
 					</div>
 				</div>
 			</div>
-			
+
 		</div>
 	</div>
 </section>
 
 <div class="finally-the-footer container-fluid">
-			<div>
-				<?php get_template_part('sidebar-templates/sidebar', 'footerfull'); ?>
-				
-			</div>
+	<div>
+		<?php get_template_part('sidebar-templates/sidebar', 'footerfull'); ?>
+
+	</div>
 	<section class="an-other-social-network-area container">
 		<a href="#" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook-f"></i></a>
 		<a href="#" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>
