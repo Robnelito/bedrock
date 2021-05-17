@@ -183,7 +183,7 @@ div#index-wrapper {
     .sidebarMenuInner li{
         list-style: none;
         color: #fff;
-        text-transform: uppercase;
+        /* text-transform: uppercase; */
         font-weight: bold;
         padding: 20px;
         cursor: pointer;
@@ -196,7 +196,7 @@ div#index-wrapper {
     }
     .sidebarMenuInner li a{
         color: #fff;
-        text-transform: uppercase;
+        /* text-transform: uppercase; */
         font-weight: bold;
         cursor: pointer;
         text-decoration: none;
