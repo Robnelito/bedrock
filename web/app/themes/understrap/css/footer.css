@@ -25,7 +25,6 @@ and of course
 jQuery: https://jquery.org | (Code licensed under MIT)
 WP Bootstrap Navwalker by Edward McIntyre: https://github.com/twittem/wp-bootstrap-navwalker | GNU GPL
 */
-
 /*
 This file is just used to identify the theme in WordPress.
 The compiled CSS output can be found in /css/theme.css
@@ -37,34 +36,199 @@ The dependencies can be found in /src/ after running "gulp copy-assets" terminal
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Mulish&display=swap');
 
 .social-media-section {
-    background-color: #343434;
-    padding: 70px 70px;
+  background-color: #343434;
+  padding: 70px 70px;
 }
 
 .h6t {
-    font-family: 'Mulish', sans-serif;
-    color: #D17A5E;
-    font-size: 16px;
-    font-weight: bold;
+  font-family: 'Mulish', sans-serif;
+  color: #D17A5E;
+  font-size: 16px;
+  font-weight: bold;
 }
 
 .h2t {
-    font-family: 'DM Serif Display', serif;
-    color: #EEE8E4;
-    font-size: 48px;
+  font-family: 'DM Serif Display', serif;
+  color: #EEE8E4;
+  font-size: 48px;
 }
 
 span.ico {
-    color: white;
-    align-items: center;
-    padding: 20px;
-    display: flex;
-    align-items: center;
+  color: white;
+  align-items: center;
+  padding: 20px;
+  display: flex;
+  align-items: center;
 }
 
 a .icone {
-    height: 70px;
-    width: 70px;
+  height: 70px;
+  width: 70px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid white;
+  color: white;
+  border-radius: 50px;
+  font-size: 28px;
+}
+
+input#VALIDER {
+  color: #D17A5E;
+  border: 1px solid #D17A5E;
+}
+
+input#VALIDER:hover {
+  color: white;
+  border: 1px solid #D17A5E;
+  background-color: #D17A5E;
+}
+
+.wpcf7 {
+  max-width: 1000px;
+  margin: 0 auto !important;
+}
+
+div#navigation .wrapper {
+  background-color: transparent !important;
+}
+
+
+a .icone:hover {
+  color: #343434;
+  background-color: white;
+}
+
+.newsletter {
+  background-color: #EEE8E4;
+}
+
+.newsletterBtn {
+  color: #D17A5E;
+  background-color: #EEE8E4;
+  border: 1px solid #D17A5E;
+  padding: 0 20px;
+  border-radius: 4px;
+  transition: all 0.7s;
+  font-size: 16px;
+  height: 48px;
+  line-height: 46px;
+  font-weight: 700;
+}
+
+.newsletterBtn:hover {
+  background-color: #D17A5E;
+  color: #EEE8E4;
+}
+
+section.an-other-social-network-area.container {
+  text-align: center;
+  border-top: 1px solid #D17A5E;
+  padding-top: 20px;
+  font-size: 25px;
+}
+
+section.an-other-social-network-area.container a {
+  color: #D17A5E;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+div.finally-the-footer {
+  background-color: #EEE8E4;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.wdi_feed_theme_1 .wdi_feed_wrapper {
+  width: 100%;
+  background-color: #FFFFFF;
+}
+
+nav.navbar.navbar-expand-md.navbar-dark.bg-primary {
+  background-color: white !IMPORTANT;
+}
+
+ul.menu-footer-menu li {
+  text-decoration: none;
+  list-style: none;
+  /* padding-right: 50px; */
+}
+
+div.menu-footer-menu-container li.menu-item.menu-item-type-post_type.menu-item-object-page {
+  list-style: none;
+  display: contents;
+}
+
+div.menu-footer-menu-container li.menu-item.menu-item-type-post_type.menu-item-object-page a {
+  text-decoration: none;
+  color: #D17A5E;
+  padding-right: 35px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+@media screen and (max-width : 1024px) {
+  div.menu-footer-menu-container li.menu-item.menu-item-type-post_type.menu-item-object-page a {
+    font-size: 13px;
+  }
+}
+
+/* @media screen and (max-width : 395px)*/
+@media screen and (max-width : 768px) {
+  div.menu-footer-menu-container li.menu-item.menu-item-type-post_type.menu-item-object-page a {
+    font-size: 10px;
+    padding-right: 20px;
+  }
+
+  div.social-media-section {
+    padding: 0;
+    padding-top: 10px;
+  }
+
+  .h6t {
+    font-family: 'Mulish', sans-serif;
+    color: #D17A5E;
+    font-size: 10px;
+    font-weight: bold;
+  }
+
+  .h2t {
+    font-family: 'DM Serif Display', serif;
+    color: #EEE8E4;
+    font-size: 38px;
+  }
+}
+
+@media screen and (max-width : 425px) {
+  div#wrapper-footer-social {
+    padding-bottom: 30px;
+  }
+
+  span.ico {
+    padding-left: 10px;
+  }
+
+  i.icone.fab.fa-facebook-f {
+    margin-left: 20px;
+  }
+
+  i.icone.fab.fa-instagram {
+    margin-left: 20px;
+  }
+
+  i.icone.fab.fa-pinterest {
+    margin-left: 20px;
+  }
+
+  a .icone {
+    height: 55px;
+    width: 55px;
     position: absolute;
     top: 0;
     bottom: 0;
@@ -76,166 +240,46 @@ a .icone {
     border: 1px solid white;
     color: white;
     border-radius: 50px;
-    font-size: 28px;
-}
+    font-size: 24px;
+  }
 
-input#VALIDER {
-    color: #D17A5E;
-    border: 1px solid #D17A5E;
-}
+  ul#menu-footer-menu {
+    text-align: left;
+    display: grid;
+    /* width: 45%; */
+  }
 
-input#VALIDER:hover {
-    color: white;
-    border: 1px solid #D17A5E;
-    background-color: #D17A5E;
-}
+  div#navigation {
+    width: 45%;
+  }
 
-.wpcf7 {
-    max-width: 1000px;
-    margin: 0 auto !important;
-}
+  .finally-the-footer.container-fluid {
+    display: flex;
+  }
 
-@media screen and (max-width: 990px) {
-    a .icone {
-        height: 55px;
-        width: 55px;
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        right: 0;
-        left: 0;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        border: 1px solid white;
-        color: white;
-        border-radius: 50px;
-        font-size: 24px;
-    }
-}
-
-@media screen and (max-width : 769px) {
-    .social-icone {
-        text-align: center;
-        padding-left: 75px;
-    }
-    h5.h6t {
-        text-align: center;
-    }
-
-    h2.h2t {
-        text-align: center;
-    }
-}
-
-@media screen and (max-width : 395px) {
-    .social-icone {
-        text-align: center;
-        padding-left: 35px;
-
-    }
-
-    span.ico.col-4.text-center {
-    padding-right: 35px;
-    }
-
-    h5.h6t {
-        text-align: center;
-    }
-
-    h2.h2t {
-        text-align: center;
-    }
-}
-
-a .icone:hover {
-    color: #343434;
-    background-color: white;
-}
-
-.newsletter {
-    background-color: #EEE8E4;
-}
-
-.newsletterBtn {
-    color: #D17A5E;
-    background-color: #EEE8E4;
-    border: 1px solid #D17A5E;
-    padding: 0 20px;
-    border-radius: 4px;
-    transition: all 0.7s;
-    font-size: 16px;
-    height: 48px;
-    line-height: 46px;
-    font-weight: 700;
-}
-
-.newsletterBtn:hover {
-    background-color: #D17A5E;
-    color: #EEE8E4;
-}
-
-section.an-other-social-network-area.container {
-    text-align: center;
-    border-top: 1px solid #D17A5E;
-    padding-top: 20px;
-    font-size: 25px;
-
-}
-section.an-other-social-network-area.container a{
-    color: #D17A5E;
-    padding-left: 20px;
-    padding-right: 20px;
-}
-div.finally-the-footer{
-    background-color: #EEE8E4;
-    padding-top: 30px;
-    padding-bottom: 30px;
-}
-.wdi_feed_theme_1 .wdi_feed_wrapper {
-    width: 100%;
-    background-color: #FFFFFF;
-}
-
-
-
-nav.navbar.navbar-expand-md.navbar-dark.bg-primary {
-    background-color: white !IMPORTANT;
-}
-
-
-ul.menu-footer-menu li{
-    text-decoration: none;
-    list-style: none;
-    /* padding-right: 50px; */
-}
-
-div.menu-footer-menu-container li.menu-item.menu-item-type-post_type.menu-item-object-page {
-    list-style: none;
-    display: contents;
-}
-
-div.menu-footer-menu-container li.menu-item.menu-item-type-post_type.menu-item-object-page a{
-    text-decoration: none;
-    color: #D17A5E;
-    padding-right: 35px;
-    text-transform: uppercase;
-    font-weight: 700;
+  section.an-other-social-network-area.container {
+    display: grid;
+    font-size: 15px;
+    border-top: none;
+    text-align: right;
+    float: right;
+    width: 20%
+  }
 }
 
 div#wrapper-footer-full {
-    background-color: transparent;
+  background-color: transparent;
 }
 
 .col-lg-12.owl-carousel.owl-theme.owl-loaded {
-    position: relative;
-    top: 0;
+  position: relative;
+  top: 0;
 }
 
 .wdi_feed_wrapper.wdi_col_3 {
-    display: flex;
+  display: flex;
 }
 
 div#nav_menu-3 {
-    text-align: center;
+  text-align: center;
 }

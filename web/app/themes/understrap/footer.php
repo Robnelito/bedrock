@@ -19,7 +19,7 @@ $container = get_theme_mod('understrap_container_type');
 
 </style>
 
-<div class="wrapper social-media-section" id="wrapper-footer">
+<div class="wrapper social-media-section" id="wrapper-footer-social">
 
 	<div class="<?php echo esc_attr($container); ?>">
 
@@ -119,9 +119,8 @@ $container = get_theme_mod('understrap_container_type');
 </section>
 
 <div class="finally-the-footer container-fluid">
-	<div>
+	<div id="navigation">
 		<?php get_template_part('sidebar-templates/sidebar', 'footerfull'); ?>
-
 	</div>
 	<section class="an-other-social-network-area container">
 		<a href="#" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook-f"></i></a>
