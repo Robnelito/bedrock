@@ -232,6 +232,10 @@ div#wrapper-footer-full {
     top: 0;
 }
 
-/* .wdi_feed_wrapper.wdi_col_3 {
+.wdi_feed_wrapper.wdi_col_3 {
     display: flex;
-} */
+}
+
+div#nav_menu-3 {
+    text-align: center;
+}
