@@ -158,6 +158,164 @@ div#index-wrapper {
         overflow: hidden;
         z-index: 10;
     } */
+<<<<<<< HEAD
+    .main {
+        margin: 0 auto;
+        display: block;
+        height: 100%;
+        margin-top: 60px;
+    }
+    .mainInner{
+        display: table;
+        height: 100%;
+        width: 100%;
+        text-align: center;
+    }
+    .mainInner div{
+        display:table-cell;
+        vertical-align: middle;
+        font-size: 3em;
+        font-weight: bold;
+        letter-spacing: 1.25px;
+    }
+    .header-logo{
+        margin: 0;
+        padding: 0;
+        width: 120px;
+        margin: 0 40%;
+        margin-top: -1%;
+    }
+    .header-logo img{
+        width: 100%;
+        margin-top: 25px;
+    }
+    #sidebarMenu {
+        height: 100%;
+        position: fixed;
+        left: 0;
+        width: 250px;
+        margin-top: 16px;
+        transform: translateX(-250px);
+        transition: transform 250ms ease-in-out;
+        background: rgb(34, 34, 34);
+    }
+    .sidebarMenuInner{
+        margin:0;
+        padding:0;
+        border-top: 1px solid rgba(255, 255, 255, 0.20);
+    }
+    .sidebarMenuInner li{
+        list-style: none;
+        color: #fff;
+        font-weight: bold;
+        padding: 20px;
+        cursor: pointer;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.10);
+    }
+    .sidebarMenuInner li span{
+        display: block;
+        font-size: 14px;
+        color: rgba(255, 255, 255, 0.50);
+    }
+    .sidebarMenuInner li a{
+        color: #fff;
+        font-weight: bold;
+        cursor: pointer;
+        text-decoration: none;
+        font-style: normal;
+        line-height: 28px;
+        font-size: 16px;
+        align-items: center;
+    }
+    input[type="checkbox"]:checked ~ #sidebarMenu {
+        transform: translateX(0);
+    }
+    
+    input[type=checkbox] {
+        transition: all 0.3s;
+        box-sizing: border-box;
+        display: none;
+    }
+    .sidebarIconToggle {
+        transition: all 0.3s;
+        box-sizing: border-box;
+        cursor: pointer;
+        position: absolute;
+        z-index: 99;
+        height: 100%;
+        width: 100%;
+        top: 25px;
+        left: 15px;
+        height: 22px;
+        width: 22px;
+    }
+    .spinner {
+        transition: all 0.3s;
+        box-sizing: border-box;
+        position: absolute;
+        height: 3px;
+        width: 100%;
+        background-color: #343434;
+    }
+    .horizontal {
+        transition: all 0.3s;
+        box-sizing: border-box;
+        position: relative;
+        float: left;
+        margin-top: 3px;
+    }
+    .diagonal.part-1 {
+        position: relative;
+        transition: all 0.3s;
+        box-sizing: border-box;
+        float: left;
+    }
+    .diagonal.part-2 {
+        transition: all 0.3s;
+        box-sizing: border-box;
+        position: relative;
+        float: left;
+        margin-top: 3px;
+    }
+    input[type=checkbox]:checked ~ .sidebarIconToggle > .horizontal {
+        transition: all 0.3s;
+        box-sizing: border-box;
+        opacity: 0;
+    }
+    input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-1 {
+        transition: all 0.3s;
+        box-sizing: border-box;
+        transform: rotate(135deg);
+        margin-top: 6px;
+    }
+    input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
+        transition: all 0.3s;
+        box-sizing: border-box;
+        transform: rotate(-135deg);
+        margin-top: -7px;
+    }
+    ul .social-media{
+        display: initial;
+    }
+    .social-media{
+        margin:0;
+        padding:0;
+        font-size: 20px;
+    }
+    .social-media li{
+        list-style: none;
+        color: #fff;
+        padding: 20px;
+        cursor: pointer;
+        margin-left: 7%;
+        display: inline-block;
+    }
+    .social-media i{
+        color: #fff;
+    }
+    .header-widget{
+        margin-right: 15px;
+    }
   .main {
     margin: 0 auto;
     display: block;
@@ -340,6 +498,7 @@ div#index-wrapper {
   .header-widget {
     margin-right: 15px;
   }
+>>>>>>> e8f60efcb5c7e0c03a63ed3a5cf92873808ff530
 }
 
 @media screen and (max-width: 425px) {
