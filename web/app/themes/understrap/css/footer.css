@@ -322,7 +322,10 @@ div.menu-footer-menu-container li.menu-item.menu-item-type-post_type.menu-item-o
     text-align: right;
   }
 
-  
+  section.an-other-social-network-area.container a{
+    top: 0;
+  }
+
 }
 
 
