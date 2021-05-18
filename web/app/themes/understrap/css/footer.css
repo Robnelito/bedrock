@@ -163,7 +163,7 @@ div#navigation .wrapper {
   }
 }
 
-a .icone:hover {
+a.icone:hover {
   color: #343434;
   background-color: white;
 }
@@ -214,9 +214,6 @@ div.finally-the-footer {
   background-color: #FFFFFF;
 }
 
-nav.navbar.navbar-expand-md.navbar-dark.bg-primary {
-  background-color: white !IMPORTANT;
-}
 
 ul.menu-footer-menu li {
   text-decoration: none;
