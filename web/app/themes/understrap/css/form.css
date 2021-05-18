@@ -1,36 +1,35 @@
 /*
 *This file comport all style for our contact form in "nous contacter" pages.
 */
-
 h1.entry-title {
-    display: none;
+  display: none;
 }
 
 .wp-block-buttons.is-content-justification-left {
-    padding-left: 0px;
-    font-size: 16px;
-    padding-top: 40px;
+  padding-left: 0px;
+  font-size: 16px;
+  padding-top: 40px;
 }
 
 h2#nous-contacter {
-    color: black;
-    padding-left: 100px;
-    padding-top: 30px;
+  color: black;
+  padding-left: 100px;
+  padding-top: 30px;
 }
 
 span.dot {
-    color: #D17A5E;
+  color: #D17A5E;
 }
 
 p#return-text {
-    padding-top: 40px;
-    padding-left: 20px;
-    color: grey;
+  padding-top: 40px;
+  padding-left: 20px;
+  color: grey;
 }
 
 a#retour-link {
-    color: black;
-    padding-right: 20px;
+  color: black;
+  padding-right: 20px;
 }
 
 a#retour-link:hover {
@@ -47,16 +46,23 @@ a#retour-link:hover {
 }
 
 a.wp-block-button__link {
-    background-color: white !important;
+  background-color: white !important;
 }
 
 input.wpcf7-form-control.wpcf7-submit {
-    color: #D17A5E;
-    border: 1px solid #D17A5E;
+  color: #D17A5E;
+  border: 1px solid #D17A5E;
 }
 
 input.wpcf7-form-control.wpcf7-submit:hover {
-    color: white;
-    background-color: #D17A5E;
-    border: 1px solid #D17A5E;
+  color: white;
+  background-color: #D17A5E;
+  border: 1px solid #D17A5E;
+}
+
+@media screen and (max-width: 768px) {
+  form.wpcf7-form.init {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
 }
