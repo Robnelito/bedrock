@@ -57,9 +57,9 @@ $container = get_theme_mod( 'understrap_container_type' );
 					} ?>
 					<!-- end custom logo -->
 
-				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="<?php esc_attr_e( 'Toggle navigation', 'understrap' ); ?>">
+				<!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="<?php esc_attr_e( 'Toggle navigation', 'understrap' ); ?>">
 					<span class="navbar-toggler-icon"></span>
-				</button>
+				</button> -->
 
 				<!-- The WordPress Menu goes here -->
 				<?php wp_nav_menu(
@@ -78,6 +78,11 @@ $container = get_theme_mod( 'understrap_container_type' );
 			</div>
 			<!-- .container -->
 			<?php endif; ?>
+
+			<ul>
+				<li><img src="app/uploads/2021/05/search.svg"></li>
+				<li></li>
+			</ul>
 
 		</nav>
 		<!-- .site-navigation -->
