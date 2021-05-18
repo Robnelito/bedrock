@@ -61,8 +61,6 @@ span.ico {
     display: flex;
     align-items: center;
 }
-
-<<<<<<< HEAD
 a .icone {
     height: 70px;
     width: 70px;
@@ -78,7 +76,7 @@ a .icone {
     color: white;
     border-radius: 50px;
     font-size: 28px;
-=======
+}
 a.icone {
   height: 70px;
   width: 70px;
@@ -94,7 +92,6 @@ a.icone {
   color: white;
   border-radius: 50px;
   font-size: 28px;
->>>>>>> 4ad1c04fed01736772f2d42e4451183c0f7d12a5
 }
 
 input#VALIDER {
@@ -116,8 +113,6 @@ input#VALIDER:hover {
 div#navigation .wrapper {
   background-color: transparent !important;
 }
-
-<<<<<<< HEAD
 @media screen and (max-width: 990px) {
     a .icone {
         height: 55px;
@@ -180,9 +175,6 @@ div#navigation .wrapper {
     font-weight: 700;
   }
 }
-
-=======
->>>>>>> 4ad1c04fed01736772f2d42e4451183c0f7d12a5
 a .icone:hover {
     color: #343434;
     background-color: white;
@@ -232,17 +224,13 @@ div.finally-the-footer{
     background-color: #FFFFFF;
 }
 
-<<<<<<< HEAD
 
-
-nav.navbar.navbar-expand-md.navbar-dark.bg-primary {
+/* nav.navbar.navbar-expand-md.navbar-dark.bg-primary {
     background-color: white !IMPORTANT;
-}
-=======
+} */
 /* nav.navbar.navbar-expand-md.navbar-dark.bg-primary {
   background-color: white !IMPORTANT;
 } */
->>>>>>> 4ad1c04fed01736772f2d42e4451183c0f7d12a5
 
 
 ul.menu-footer-menu li{
@@ -263,11 +251,6 @@ div.menu-footer-menu-container li.menu-item.menu-item-type-post_type.menu-item-o
     text-transform: uppercase;
     font-weight: 700;
 }
-
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
 div#wrapper-footer-full {
   background-color: transparent;
 }
@@ -366,8 +349,6 @@ div#nav_menu-3 {
     font-weight: 700;
   }
 }
-
->>>>>>> 4ad1c04fed01736772f2d42e4451183c0f7d12a5
 @media screen and (max-width : 1024px) {
   div.menu-footer-menu-container li.menu-item.menu-item-type-post_type.menu-item-object-page a {
     font-size: 13px;
@@ -476,16 +457,11 @@ div#nav_menu-3 {
     float: right;
     width: 20%
   }
-<<<<<<< HEAD
-
   section.an-other-social-network-area.container a{
     top: 0;
   }
 
 }
-
-
->>>>>>> ce8cbb2f3aa86268b79f5e75a0b1ecbf1608c0f2
 div#wrapper-footer-full {
     background-color: transparent;
 }
@@ -501,6 +477,4 @@ div#wrapper-footer-full {
 
 div#nav_menu-3 {
     text-align: center;
-=======
->>>>>>> 4ad1c04fed01736772f2d42e4451183c0f7d12a5
 }

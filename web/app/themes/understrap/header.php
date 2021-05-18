@@ -72,21 +72,28 @@ $container = get_theme_mod( 'understrap_container_type' );
 						'menu_id'         => 'main-menu',
 						'depth'           => 2,
 						'walker'          => new Understrap_WP_Bootstrap_Navwalker(),
-					)
-				); ?>
+						)
+					); ?>
 			<?php if ( 'container' == $container ) : ?>
 			</div>
 			<!-- .container -->
 			<?php endif; ?>
+			<div class="header-widget">
+				<ul>
+					<li><a href="#">
+						<img src="app/themes/understrap/img/svg/search.svg" alt="">
+					</a></li>
+					<li><a href="#">
+						<img src="app/themes/understrap/img/svg/user.svg" alt="">
+					</a></li>
+				</ul>
+			</div>
 
 		</nav>
 		<!-- .site-navigation -->
 
 	</div>
 	<!-- #wrapper-navbar end -->
-<<<<<<< HEAD
-	
-=======
 	<!-- <nav class="header-nav">
 		<div class="header"></div>
 		<input type="checkbox" class="openSidebarMenu" id="openSidebarMenu">
@@ -132,4 +139,3 @@ $container = get_theme_mod( 'understrap_container_type' );
 			</ul>
 		</div>
 	</nav> -->
->>>>>>> ce8cbb2f3aa86268b79f5e75a0b1ecbf1608c0f2
