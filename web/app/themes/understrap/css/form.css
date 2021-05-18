@@ -19,7 +19,7 @@ h1.entry-title {
 
 h2#nous-contacter {
     color: black;
-    padding-left: 250px;
+    padding-left: 100px;
     padding-top: 30px;
 }
 
@@ -36,6 +36,10 @@ p#return-text {
 a#retour-link {
     color: black;
     padding-right: 20px;
+}
+
+a#retour-link:hover {
+  text-decoration: none;
 }
 
 .wp-block-contact-form-7-contact-form-selector {
