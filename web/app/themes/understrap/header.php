@@ -80,12 +80,14 @@ $container = get_theme_mod( 'understrap_container_type' );
 			<?php endif; ?>
 			<div class="header-widget">
 				<ul>
-					<li><a href="#">
-						<img src="app/themes/understrap/img/svg/search.svg" alt="">
-					</a></li>
-					<li><a href="#">
-						<img src="app/themes/understrap/img/svg/user.svg" alt="">
-					</a></li>
+					<li>
+						<!-- <img src="app/themes/understrap/img/svg/search.svg" alt=""> -->
+						<span><i class="fal fa-search"></i></span>
+					</li>
+					<li>
+						<!-- <img src="app/themes/understrap/img/svg/user.svg" alt=""> -->
+						<span><i class="fal fa-user"></i></span>
+					</li>
 				</ul>
 			</div>
 
@@ -93,6 +95,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 		<!-- .site-navigation -->
 
 	</div>
+	<script src="https://kit.fontawesome.com/079b17d26d.js" crossorigin="anonymous"></script>
 	<!-- #wrapper-navbar end -->
 	<!-- <nav class="header-nav">
 		<div class="header"></div>
