@@ -4,7 +4,6 @@ body {
   background: #fff;
   padding: 0;
   margin: 0;
-  font-family: 'Mulish', sans-serif;
 }
 
 .img-fluid{
@@ -12,4 +11,9 @@ body {
 }
 .navbar-dark .navbar-nav .nav-link{
   color: #343434 !important;
+  font-family: 'Mulish', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 28px;
+  text-align: center;
 }

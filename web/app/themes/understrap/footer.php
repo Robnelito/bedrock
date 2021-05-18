@@ -47,7 +47,6 @@ $container = get_theme_mod('understrap_container_type');
 						</span>
 						<span class="ico col-4 text-center">
 							<a href="#" target="_blank" rel="noopener noreferrer"><i class="icone fab fa-pinterest"></i></a>
-
 						</span>
 
 					</div><!-- .some social text -->
