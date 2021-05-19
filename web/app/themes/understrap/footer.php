@@ -125,7 +125,7 @@ $container = get_theme_mod('understrap_container_type');
 		<div id="social-footer-ico-container">
 			<a href="#" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook-f"></i></a>
 			<a href="#" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>
-			<a href="#" target="_blank" rel="noopener noreferrer"><i class="fab fa-pinterest"></i></a>
+			<a href="#" target="_blank" rel="noopener noreferrer"><i class="fab fa-pinterest-p"></i></a>
 		</div>
 	</section>
 </div>
