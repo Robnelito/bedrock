@@ -13,6 +13,11 @@ h1.entry-title {
   padding-right: 20px;
 }
 
+.wpcf7-form-control.wpcf7-text:focus {
+  border: 1px solid #ced4da;
+  box-shadow: 0 0 0 0.2rem transparent;
+}
+
 .wp-block-buttons.is-content-justification-left {
   padding-left: 0px;
   font-size: 16px;
