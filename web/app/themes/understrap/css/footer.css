@@ -78,6 +78,11 @@ a .icone {
   font-size: 28px;
 }
 
+a.icone:hover{
+  background-color: #FFFFFF;
+  color: #343434;
+}
+
 input#VALIDER {
   color: #D17A5E;
   border: 1px solid #D17A5E;
