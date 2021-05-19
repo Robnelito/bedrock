@@ -94,7 +94,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 			<div class="spinner diagonal part-2"></div>
 		</label>
 		<div class="header-logo">
-			<img src="<?php echo esc_url(site_url('/img/png/logo-domus-dark.png'))?>" alt="Domus, vivez de l'intérieur">
+			<a href="<?php echo esc_url(home_url('/')); ?>"><img src="<?php echo esc_url(home_url('app/themes/understrap/img/png/logo-domus-dark.png'))?>" alt="Domus, vivez de l'intérieur"></a>
 		</div>
 		<div class="header-link">
 			<ul>
@@ -122,10 +122,10 @@ $container = get_theme_mod( 'understrap_container_type' );
 		<div class="header-widget">
 			<ul>
 				<li><a href="#">
-					<img src="app/themes/understrap/img/svg/search.svg" alt="">
+					<img src="<?php echo esc_url(home_url('app/themes/understrap/img/svg/search.svg')) ?>" alt="">
 				</a></li>
 				<li><a href="#">
-					<img src="app/themes/understrap/img/svg/user.svg" alt="">
+					<img src="<?php echo esc_url(home_url('app/themes/understrap/img/svg/user.svg')) ?>" alt="">
 				</a></li>
 			</ul>
 		</div>
