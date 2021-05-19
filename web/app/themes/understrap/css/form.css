@@ -5,6 +5,14 @@ h1.entry-title {
   display: none;
 }
 
+.wpcf7 {
+  max-width: 4450px;
+  margin: 0 auto !important;
+  margin: 0 auto !important;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
 .wp-block-buttons.is-content-justification-left {
   padding-left: 0px;
   font-size: 16px;

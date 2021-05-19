@@ -40,8 +40,6 @@ The dependencies can be found in /src/ after running "gulp copy-assets" terminal
   padding: 70px 70px;
 }
 
-
-
 .h6t {
   font-family: 'Mulish', sans-serif;
   color: #D17A5E;
@@ -80,7 +78,7 @@ a .icone {
   font-size: 28px;
 }
 
-.icone:hover{
+.icone:hover {
   background-color: #FFFFFF;
   color: #343434;
 }
@@ -94,13 +92,6 @@ input#VALIDER:hover {
   color: white;
   border: 1px solid #D17A5E;
   background-color: #D17A5E;
-}
-
-.wpcf7 {
-  max-width: 1000px;
-  margin: 0 auto !important;
-  max-width: 1000px;
-  margin: 0 auto !important;
 }
 
 div#navigation .wrapper {
@@ -138,6 +129,27 @@ div#navigation .wrapper {
 
   h2.h2t {
     text-align: center;
+  }
+
+  div#wrapper-footer-social {
+    padding: 40px 0px 40px 0px;
+  }
+
+  a .icone {
+    height: 45px;
+    width: 45px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    color: white;
+    border-radius: 50px;
+    font-size: 14px;
   }
 }
 
@@ -277,7 +289,7 @@ div.menu-footer-menu-container li.menu-item.menu-item-type-post_type.menu-item-o
     padding-bottom: 30px;
   }
 
-  #social-footer-ico-container{
+  #social-footer-ico-container {
     padding-top: 60px;
     text-align: center;
   }
@@ -484,6 +496,10 @@ div#nav_menu-3 {
     font-family: 'DM Serif Display', serif;
     color: #EEE8E4;
     font-size: 38px;
+  }
+
+  .entry-content {
+    padding-top: 50px;
   }
 }
 
