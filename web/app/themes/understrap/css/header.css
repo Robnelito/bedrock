@@ -151,7 +151,7 @@ nav{
     }
     .header-logo img{
         width: 100%;
-        margin-top: 25px;
+        margin-top: 15px;
     }
     #sidebarMenu {
         height: 100%;
@@ -308,7 +308,7 @@ nav{
     }
     .header-logo img{
         width: 100%;
-        margin-top: 25px;
+        margin-top: 15px;
     }
 }
 @media screen and (max-width: 320px){
@@ -320,6 +320,6 @@ nav{
     }
     .header-logo img{
         width: 100%;
-        margin-top: 25px;
+        margin-top: 15px;
     }
 }
