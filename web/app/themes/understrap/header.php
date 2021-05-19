@@ -80,7 +80,16 @@ $container = get_theme_mod( 'understrap_container_type' );
 			<!-- .container -->
 			<!-- <?php endif; ?> -->
 
+<<<<<<< HEAD
 		<!-- </nav> -->
+=======
+			<ul>
+				<li><img src="app/uploads/2021/05/search.svg"></li>
+				<li></li>
+			</ul>
+
+		</nav>
+>>>>>>> form-responsivity
 		<!-- .site-navigation -->
 
 	<!-- </div> -->
