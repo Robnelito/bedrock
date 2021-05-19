@@ -277,6 +277,10 @@ div.menu-footer-menu-container li.menu-item.menu-item-type-post_type.menu-item-o
     padding-bottom: 30px;
   }
 
+  #social-footer-ico-container{
+    padding-top: 60px;
+  }
+
   span.ico {
     padding-left: 10px;
   }
