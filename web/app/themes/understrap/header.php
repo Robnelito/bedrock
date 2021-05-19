@@ -19,7 +19,8 @@ $container = get_theme_mod( 'understrap_container_type' );
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<link rel="profile" href="http://gmpg.org/xfn/11">
 	<?php wp_head(); ?>
-	<link rel="stylesheet"
+	<!-- <link rel="stylesheet" href="app/themes/understrap/assets/css/style.css"> -->
+	<link rel="stylesheet" 
 	href="app/themes/understrap/assets/css/all.min.css">
 </head>
 
@@ -28,7 +29,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 <div class="site" id="page">
 
 	<!-- ******************* The Navbar Area ******************* -->
-	<div id="wrapper-navbar" itemscope itemtype="http://schema.org/WebSite">
+	<!-- <div id="wrapper-navbar" itemscope itemtype="http://schema.org/WebSite">
 
 		<a class="skip-link sr-only sr-only-focusable" href="#content"><?php esc_html_e( 'Skip to content', 'understrap' ); ?></a>
 
@@ -36,10 +37,10 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 		<?php if ( 'container' == $container ) : ?>
 			<div class="container">
-		<?php endif; ?>
+		<?php endif; ?> -->
 
 					<!-- Your site title as branding in the menu -->
-					<?php if ( ! has_custom_logo() ) { ?>
+					<!-- <?php if ( ! has_custom_logo() ) { ?>
 
 						<?php if ( is_front_page() && is_home() ) : ?>
 
@@ -54,15 +55,15 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 					<?php } else {
 						the_custom_logo();
-					} ?>
+					} ?> -->
 					<!-- end custom logo -->
 
-				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="<?php esc_attr_e( 'Toggle navigation', 'understrap' ); ?>">
+				<!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="<?php esc_attr_e( 'Toggle navigation', 'understrap' ); ?>">
 					<span class="navbar-toggler-icon"></span>
-				</button>
+				</button> -->
 
 				<!-- The WordPress Menu goes here -->
-				<?php wp_nav_menu(
+				<!-- <?php wp_nav_menu(
 					array(
 						'theme_location'  => 'primary',
 						'container_class' => 'collapse navbar-collapse',
@@ -75,12 +76,57 @@ $container = get_theme_mod( 'understrap_container_type' );
 					)
 				); ?>
 			<?php if ( 'container' == $container ) : ?>
-			</div>
+			</div> -->
 			<!-- .container -->
-			<?php endif; ?>
+			<!-- <?php endif; ?> -->
 
-		</nav>
+		<!-- </nav> -->
 		<!-- .site-navigation -->
 
-	</div>
+	<!-- </div> -->
 	<!-- #wrapper-navbar end -->
+	<nav class="box">
+		<div class="header"></div>
+		<input type="checkbox" class="openSidebarMenu" id="openSidebarMenu">
+		<label for="openSidebarMenu" class="sidebarIconToggle">
+			<div class="spinner diagonal part-1"></div>
+			<div class="spinner horizontal"></div>
+			<div class="spinner diagonal part-2"></div>
+		</label>
+		<div class="header-logo">
+			<img src="app/themes/understrap/img/png/logo-domus-dark.png" alt="Domus, vivez de l'intérieur">
+		</div>
+		<div class="header-link">
+			<ul>
+				<li><a href="#">Découvrir Domus</a></li>
+				<li><a href="#">Nos services</a></li>
+				<li><a href="#">Nos enseignes</a></li>
+				<li><a href="#">Nos événements</a></li>
+				<li><a href="http://localhost/bedrock/web/nous-contacter/">Nous contacter</a></li>
+			</ul>
+		</div>
+		<div id="sidebarMenu">
+			<ul class="sidebarMenuInner">
+				<li><a href="#">Découvrir Domus</a></li>
+				<li><a href="#">Nos services</a></li>
+				<li><a href="#">Nos enseignes</a></li>
+				<li><a href="#">Nos événements</a></li>
+				<li><a href="http://localhost/bedrock/web/nous-contacter/">Nous contacter</a></li>
+			</ul>
+			<ul class="social-media">
+				<li><a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+				<li><a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a></li>
+				<li><a href="https://www.pinterest.com" target="_blank"><i class="fab fa-pinterest"></i></a></li>
+			</ul>
+		</div>
+		<div class="header-widget">
+			<ul>
+				<li><a href="#">
+					<img src="app/themes/understrap/img/svg/search.svg" alt="">
+				</a></li>
+				<li><a href="#">
+					<img src="app/themes/understrap/img/svg/user.svg" alt="">
+				</a></li>
+			</ul>
+		</div>
+	</nav>
