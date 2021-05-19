@@ -40,10 +40,7 @@ The dependencies can be found in /src/ after running "gulp copy-assets" terminal
   padding: 70px 70px;
 }
 
-.icone:hover {
-    background-color: white;
-    color: black;
-}
+
 
 .h6t {
   font-family: 'Mulish', sans-serif;
@@ -83,7 +80,7 @@ a .icone {
   font-size: 28px;
 }
 
-a.icone:hover{
+.icone:hover{
   background-color: #FFFFFF;
   color: #343434;
 }
