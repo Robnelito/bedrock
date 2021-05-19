@@ -5,6 +5,10 @@ h1.entry-title {
   display: none;
 }
 
+div#content {
+  padding-top: 80px;
+}
+
 .wpcf7 {
   max-width: 4450px;
   margin: 0 auto !important;
@@ -13,7 +17,17 @@ h1.entry-title {
   padding-right: 20px;
 }
 
-.wpcf7-form-control.wpcf7-text:focus {
+.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required:focus {
+  border: 1px solid #ced4da;
+  box-shadow: 0 0 0 0.2rem transparent;
+}
+
+.wpcf7-form-control.wpcf7-text.wpcf7-tel.wpcf7-validates-as-tel {
+  border: 1px solid #ced4da;
+  box-shadow: 0 0 0 0.2rem transparent;
+}
+
+.wpcf7-form-control.wpcf7-textarea.wpcf7-validates-as-required {
   border: 1px solid #ced4da;
   box-shadow: 0 0 0 0.2rem transparent;
 }
@@ -78,10 +92,12 @@ input.wpcf7-form-control.wpcf7-submit:hover {
     padding-right: 10px;
     padding-left: 10px;
   }
-}
 
-@media screen and (max-width: 768px) {
   h2#nous-contacter {
     padding-left: 0;
+  }
+
+  div#content {
+    padding-top: 20px;
   }
 }
