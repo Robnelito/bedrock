@@ -94,7 +94,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 			<div class="spinner diagonal part-2"></div>
 		</label>
 		<div class="header-logo">
-			<img src="app/themes/understrap/img/png/logo-domus-dark.png" alt="Domus, vivez de l'intérieur">
+			<img src="<?php echo esc_url(site_url('/img/png/logo-domus-dark.png'))?>" alt="Domus, vivez de l'intérieur">
 		</div>
 		<div class="header-link">
 			<ul>
