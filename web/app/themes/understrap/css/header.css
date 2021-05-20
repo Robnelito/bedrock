@@ -129,7 +129,7 @@ nav.header-link a:hover::after{
   }
 }
 @media screen and (max-width: 768px){
-    :is(input[type="checkbox"], .sidebarMenuInner, .social-media){
+    :is(.openSidebarMenu, .sidebarMenuInner, .social-media){
         display: initial;
     }
     nav{
@@ -226,7 +226,7 @@ nav.header-link a:hover::after{
         transform: translateX(0);
     }
 
-    input[type=checkbox] {
+    .openSidebarMenu {
         transition: all 0.3s;
         box-sizing: border-box;
         display: none;
@@ -272,18 +272,18 @@ nav.header-link a:hover::after{
         float: left;
         margin-top: 3px;
     }
-    input[type=checkbox]:checked ~ .sidebarIconToggle > .horizontal {
+    .openSidebarMenu:checked ~ .sidebarIconToggle > .horizontal {
         transition: all 0.3s;
         box-sizing: border-box;
         opacity: 0;
     }
-    input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-1 {
+    .openSidebarMenu:checked ~ .sidebarIconToggle > .diagonal.part-1 {
         transition: all 0.3s;
         box-sizing: border-box;
         transform: rotate(135deg);
         margin-top: 6px;
     }
-    input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
+    .openSidebarMenu:checked ~ .sidebarIconToggle > .diagonal.part-2 {
         transition: all 0.3s;
         box-sizing: border-box;
         transform: rotate(-135deg);
