@@ -15,6 +15,9 @@ body {
   margin: 0;
   font-family: 'Mulish', sans-serif;
 }
+body::-webkit-scrollbar{
+  display: none;
+}
 #navbar{
     background: #fff;
     width: 100%;
