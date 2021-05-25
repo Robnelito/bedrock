@@ -14,11 +14,7 @@ defined('ABSPATH') || exit;
 get_header();
 ?>
 
-<div id="content">
-  <div class="container" id="event-area">
-    
-  </div>
-</div>
+
 
 <?php
   $args = array('post_type' => 'nos_enseignes', 'order' => 'ASC', 'posts_per_page' => -1);
@@ -26,16 +22,16 @@ get_header();
 ?>
 
 <div id="content">
-  <div class="">
+  <div class="container row text-center" id="event-area">
     <?php while($wp_query->have_posts()): $wp_query->the_post(); ?>
-    <p><?php echo the_field("enseigne");?></p>
-  </div>
 
-  <?php
-    endwhile;
-    wp_reset_postdata();
-  ?>
+      <p class="col-md-3" id="<?php echo the_title() ?>"> <?= the_field("enseigne") ?> </p>
+
+
+    <?php endwhile;wp_reset_postdata();?>
+  </div>
 </div>
+
 <?php
 get_footer();
 ?>
