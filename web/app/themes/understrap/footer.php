@@ -27,7 +27,7 @@ $container = get_theme_mod('understrap_container_type');
 
 			<div class="col-md-12">
 
-				<footer class="site-footer row" id="colophon">
+				<footer class="site-footer row">
 
 					<div class="social-test col-md-8">
 
@@ -72,7 +72,7 @@ $container = get_theme_mod('understrap_container_type');
 
 			<div class="col-md-12">
 
-				<footer class="site-footer" id="colophon">
+				<footer class="site-footer">
 
 					<div class="text-center">
 						<h6 class="h6t">NE LOUPEZ RIEN DE NOS ACTUALITES</h6>

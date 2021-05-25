@@ -81,6 +81,7 @@ a .icone {
 .icone:hover {
   background-color: #FFFFFF;
   color: #343434;
+  padding-p
 }
 
 input#VALIDER {
@@ -99,7 +100,7 @@ div#navigation .wrapper {
 }
 
 @media screen and (max-width: 990px) {
-  a .icone {
+  a.icone {
     height: 55px;
     width: 55px;
     position: absolute;
