@@ -22,10 +22,34 @@ get_header();
 ?>
 
 <div id="content">
+
+  <button onclick="trieAlphabetic('A','B')">A B</button>
+  <button onclick="trieAlphabetic('C','D')">C D</button>
+  <button onclick="trieAlphabetic('E','F')">E F</button>
+  <button onclick="trieAlphabetic('G','H')">G H</button>
+  <button onclick="trieAlphabetic('I','J')">I J</button>
+  <button onclick="trieAlphabetic('K','L')">K L</button>
+  <button onclick="trieAlphabetic('M','N')">M N</button>
+  <button onclick="trieAlphabetic('O','P')">O P</button>
+  <button onclick="trieAlphabetic('Q','R')">Q R</button>
+  <button onclick="trieAlphabetic('S','T')">S T</button>
+  <button onclick="trieAlphabetic('U','V')">U V</button>
+  <button onclick="trieAlphabetic('W','X')">W X</button>
+  <button onclick="trieAlphabetic('Y','Z')">Y Z</button>
+
+
   <div class="container row text-center" id="event-area">
     <?php while($wp_query->have_posts()): $wp_query->the_post(); ?>
+    <?php $test = get_the_title();?>
 
-      <p class="col-md-3" id="<?php echo the_title() ?>"> <?= the_field("enseigne") ?> </p>
+      <div class="col-md-3 my-event-card" id="<?php echo($test[0])?>"> 
+      
+      <p class="enseigne-image"><?php echo the_field('photo-enseigne')?></p>
+      <p class="enseigne-type"><?php echo the_field('type')?></p>
+      <p class="enseigne-title"><?php echo the_title()?></p>
+      <p class="enseigne-etage"> <?php echo the_field('etage')?> </p>
+      
+      <?= the_field("enseigne") ?> </div>
 
 
     <?php endwhile;wp_reset_postdata();?>
