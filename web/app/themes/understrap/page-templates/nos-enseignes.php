@@ -42,7 +42,7 @@ get_header();
     <?php while($wp_query->have_posts()): $wp_query->the_post(); ?>
     <?php $test = get_the_title();?>
 
-      <div class="col-md-3 my-event-card" id="<?php echo($test[0])?>"> 
+      <div class="col-md-3 my-event-card <?php echo($test[0])?>" id=""> 
       
       <p class="enseigne-image"><?php echo the_field('photo-enseigne')?></p>
       <p class="enseigne-type"><?php echo the_field('type')?></p>

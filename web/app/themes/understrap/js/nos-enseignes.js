@@ -7,7 +7,14 @@ function trieAlphabetic(one, two){
     for (i = 0; i < x.length; i++) {
         x[i].style.display = 'none';
     }
-    document.getElementById(one).style.display = 'initial'
-    document.getElementById(two).style.display = 'initial'
 
+    x = document.getElementsByClassName(one)
+    for (i = 0; i < x.length; i++) {
+        x[i].style.display = 'initial';
+    }
+
+    x = document.getElementsByClassName(two)
+    for (i = 0; i < x.length; i++) {
+        x[i].style.display = 'initial';
+    }
 }
